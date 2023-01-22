@@ -21,9 +21,9 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 To learn React, check out the [React documentation](https://reactjs.org/).
 
 ### Built With
-1. React[https://reactjs.org/] - A JavaScript library for building user interfaces
-2. Tailwind CSS[https://tailwindcss.com/] - A utility-first CSS framework for rapidly building custom designs.
-3. Netlify[https://app.netlify.com/]  - A platform for building, deploying, and managing modern web projects.
+1. React [https://reactjs.org/] - A JavaScript library for building user interfaces
+2. Tailwind CSS [https://tailwindcss.com/] - A utility-first CSS framework for rapidly building custom designs.
+3. Netlify [https://app.netlify.com/]  - A platform for building, deploying, and managing modern web projects.
 
 ### Author
-Gyan Prakash Kumar[
+Gyan Prakash Kumar [https://github.com/GyanPrakashKumar]
