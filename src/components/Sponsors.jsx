@@ -25,14 +25,6 @@ const Sponsors = () => {
     },
   ];
 
-  // const companies = [
-  //   {
-  //     id: 1,
-  //     icon: <FaGoogle size={25} />,
-  //     title: "google",
-  //   }
-  // ];
-
   return (
     <PageSection
       name="Sponsors"
@@ -44,7 +36,7 @@ const Sponsors = () => {
           {Sponsors.map(({ id, title, subtitle }) => (
             <div
               key={id}
-              className="odd:bg-thBlue even:bg-thOrange text-black p-4 rounded-lg"
+              className="bg-gradient-to-r from-thBlue to-thOrange text-black p-4 rounded-lg"
             >
               <h1 className="text-3xl text-white font-bold mb-2">{title}</h1>
               <p className="text-white">{subtitle}</p>

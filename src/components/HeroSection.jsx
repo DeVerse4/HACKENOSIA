@@ -123,7 +123,7 @@ const HeroSection = ({ isMenuShown }) => {
       </div>
       <article className="w-full fixed bottom-0 bg-yellow-600/70">
         <div>
-          <p className="text-md lg:text-xl text-justify px-2">
+          <p className="text-md lg:text-xl leading-4 text-justify px-2 py-1">
             "Our website is currently undergoing updates and improvements, please check back soon for a new and enhanced experience!"
           </p>
         </div>

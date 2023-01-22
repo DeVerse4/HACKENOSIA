@@ -37,7 +37,7 @@ const Contact = () => {
             {contactinfo.map(({ id, title, subtitle, link }) => (
               <div
                 key={id}
-                className="odd:bg-thBlue even:bg-thOrange text-black p-4 rounded-lg"
+                className="bg-gradient-to-r from-thBlue to-thOrange text-black p-4 rounded-lg"
               >
                 <h1 className="text-2xl font-bold mb-2 text-white">{title}</h1>
                 <p className="text-white">{subtitle}</p>

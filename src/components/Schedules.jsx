@@ -37,7 +37,7 @@ const Schedules = () => {
   return (
     <PageSection
       name="Schedules"
-      title="Schedules & Flow of Events"
+      title="Flow of Event"
       subtitle={``}
     >
       <>
@@ -45,7 +45,7 @@ const Schedules = () => {
           {Schedules.map(({ id, title, subtitle }) => (
             <div
               key={id}
-              className="odd:bg-thBlue even:bg-thOrange text-black p-4 rounded-lg"
+              className="bg-gradient-to-r from-thOrange to-thBlue text-black p-4 rounded-lg"
             >
               <h1 className="text-3xl text-white font-bold mb-2">{title}</h1>
               <p className="text-white">{subtitle}</p>

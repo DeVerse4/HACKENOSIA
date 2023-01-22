@@ -41,12 +41,12 @@ const Tracks = () => {
         {Tracks.map(({ id, icon, title, subtitle }) => (
           <div
             key={id}
-            className="group bg-gradient-to-r from-thOrange to-thBlue rounded-lg flex flex-col items-center justify-center p-8 text-center"
+            className="group bg-gradient-to-r from-thOrange to-thBlue rounded-lg flex flex-col items-center justify-center p-4 text-center"
           >
             <div className="flex items-center justify-center duration-300 group-hover:scale-110">
               <div className="bg-black rounded-full p-5 m-4">{icon}</div>
             </div>
-            <h1 className="text-2xl lg:text-4xl my-8 text-white capitalize">{title}</h1>
+            <h1 className="text-2xl lg:text-4xl my-5 text-white capitalize">{title}</h1>
             <p className="text-lg text-white">{subtitle}</p>
           </div>
         ))}

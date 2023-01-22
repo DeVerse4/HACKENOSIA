@@ -40,7 +40,7 @@ const Judges = () => {
                 {judges.map(({ name, title, bio, image }) => (
                     <div
                         key={name}
-                        className="group bg-gradient-to-r from-thOrange to-thBlue rounded-lg flex flex-col items-center justify-center p-8 text-center"
+                        className="group bg-gradient-to-r from-thOrange to-thBlue rounded-lg flex flex-col items-center justify-center p-3 text-center"
                     >
                         <div className="flex items-center justify-center duration-300 group-hover:scale-110">
                             <div className="p-5 m-4">
@@ -50,7 +50,6 @@ const Judges = () => {
                         <h3 className="text-2xl lg:text-2xl text-white capitalize">{name}</h3>
                         <p className="text-md text-white font-semibold my-1">{title}</p>
                         <p className="text-md text-white">{bio}</p>
-
                     </div>
                 ))};
             </div>

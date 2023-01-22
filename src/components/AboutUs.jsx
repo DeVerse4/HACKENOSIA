@@ -11,7 +11,7 @@ const AboutUs = () => {
     >
       <div className="flex flex-col lg:flex-row items-center justify-center gap-8 text-xl">
         {/* left */}
-        <div className="flex flex-col gap-4 w-full lg:p-8 bg-gray-900 rounded-lg">
+        <div className="flex flex-col gap-4 w-full lg:p-8 bg-gray-900 rounded-lg text-lg">
           <p className="border-l-4 pl-4 odd:border-thOrange even:border-thBlue p-3">
             Welcoming you to the first ever hackathon at VGI campus! We are thrilled to bring together a diverse group of talented programmers and developers for a 24-hour in-person event on last week of March .
           </p>
