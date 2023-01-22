@@ -4,6 +4,7 @@ This is a website for a hackathon event built using React and Tailwind CSS. The 
 
 ### Prerequisites
 
+
 In the project directory, you can run:
 
 ### `npm start`
