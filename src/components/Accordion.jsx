@@ -1,9 +1,8 @@
-import React, { useState } from 'react'
+import React from 'react'
 import FAQ from './FAQ';
 import { questions } from './FaqQues';
 
 const Accordion = () => {
-    const [data, setData] = useState(questions);
     return (
         <>
             <div className="max-w-screen-xl mx-auto h-fit">
@@ -11,7 +10,7 @@ const Accordion = () => {
                     Frequently Asked Question
                 </h1>
                 {
-                    data.map((item) => {
+                    questions.map((item) => {
                         const { id } = item;
                         return <FAQ key={id} {...item} />
                     })
