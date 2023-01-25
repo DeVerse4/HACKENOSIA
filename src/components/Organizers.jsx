@@ -40,7 +40,7 @@ const Organizers = () => {
             name="organizers"
             subtitle=""
         >
-            <div className="grid lg:grid-cols-6 gap-6 text-black">
+            <div className="grid lg:grid-cols-6 grid-cols-2 gap-6 text-black">
                 {members.map(({ id, image, name }) => (
                     <div
                         key={id}

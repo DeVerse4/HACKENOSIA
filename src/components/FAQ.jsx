@@ -1,28 +1,28 @@
 import React, { useState } from 'react';
 import { FaPlus, FaMinus } from 'react-icons/fa';
-import { questions } from './FaqQues';
 
-const FAQ = () => {
+const FAQ = ({question, answer}) => {
 
     const [openAns, setOpenAns] = useState(false);
 
     return (
         <>
-            {questions.map((faqs, id) => (
-                <div className="flex flex-col gap-4 overflow-hidden m-8 bg-gray-900 rounded-lg text-lg" key={id} >
-                    <div className='flex justify-between'>
-                        <span className="border-l-4 pl-4 py-3 font-semibold" >{faqs.question}</span>
-                        <span className='pr-4 py-3' onClick={() => setOpenAns(!openAns)}>
-                            {openAns ? <FaMinus /> : <FaPlus />}
-                        </span>
+            <div className="max-w-screen-xl mx-auto h-fit px-5">
+                <div className="flex justify-between mb-2 p-3 rounded-lg items-center bg-thBlue">
+                    <h1 className="text-xl lg:text-2xl font-bold">{question}</h1>
+                    <div className="text-2xl cursor-pointer" onClick={() => setOpenAns(!openAns)}>
+                        {openAns ? <FaMinus /> : <FaPlus />}
                     </div>
-                    {
-                        openAns && <p className='p-4'>{faqs.answer}</p>
-                    }
                 </div>
-            ))}
+                {openAns &&
+                    <p className="text-xl bg-thPurple p-3 rounded-lg my-2">
+                        {answer}
+                    </p>
+
+                }
+            </div>
         </>
     )
 }
 
-export default FAQ
+export default FAQ;

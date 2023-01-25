@@ -10,7 +10,7 @@ import Prizes from "./components/Prizes";
 import Judges from "./components/Judges";
 import Organizers from "./components/Organizers";
 import Schedules from "./components/Schedules";
-import FAQ from "./components/FAQ";
+import  Accordion  from "./components/Accordion";
 
 function App() {
   const [isMenuShown, setIsMenuShown] = useState(false);
@@ -26,7 +26,7 @@ function App() {
       <Judges />
       <Sponsors />
       <Organizers />
-      <FAQ />
+      <Accordion />
       <Contact />
       <Footer />
     </div>
