@@ -1,4 +1,5 @@
 # HackEnosia - A 24 hours hackathon organized by DeVerse
+[![Netlify Status](https://api.netlify.com/api/v1/badges/a3e1095e-ded1-41f5-b5a1-151afdfe33ef/deploy-status)](https://app.netlify.com/sites/hackenosia/deploys)
 
 This is a website for a hackathon event built using React and Tailwind CSS. The website is deployed on Netlify..
 
